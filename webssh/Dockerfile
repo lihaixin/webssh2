@@ -1,5 +1,5 @@
 FROM jrohy/webssh
-EVN TZ=Asia/Shanghai
+ENV TZ=Asia/Shanghai
 
 EXPOSE 5032
 ENTRYPOINT ["/webssh"]
