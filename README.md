@@ -8,6 +8,6 @@ Web SSH Client using WebSSH2 (ssh2, socket.io, xterm.js) on Alpline docker
 docker run -d \
 -p 5032:5032 \
 --restart always \
---name webssh \
+--name webssh-5032 \
 lihaixin/webssh2:ssh
 ```
